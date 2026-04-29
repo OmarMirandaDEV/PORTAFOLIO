@@ -39,19 +39,6 @@ Luego abre:
 ```text
 http://localhost:4173
 ```
-
-## Estructura del proyecto
-
-- `index.html`: estructura principal del portafolio.
-- `styles.css`: estilos visuales y diseño responsive.
-- `script.js`: carga de repositorios y filtros.
-
-## Personalización rápida
-
-- Edita el texto principal en `index.html` si quieres cambiar la presentación.
-- Cambia los proyectos destacados en `script.js`.
-- Ajusta colores, tipografía o distribución en `styles.css`.
-
 ## Despliegue
 
 Puedes publicar este portafolio en:
