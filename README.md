@@ -1,6 +1,10 @@
 # Portafolio - Omar Miranda DEV
 
-Portafolio personal para presentar mis proyectos, trabajos y repositorios públicos de GitHub. El sitio incluye una portada visual, secciones de presentación y un listado dinámico que consume la API pública de GitHub para mostrar mis repositorios.
+Portafolio personal para presentar mis proyectos, trabajos y repositorios públicos de GitHub. El sitio combina una portada visual, una descripción profesional y un listado dinámico que consume la API pública de GitHub para mostrar mis repositorios.
+
+## Perfil
+
+Desarrollador enfocado en aprender construyendo. Me interesa crear soluciones prácticas, interfaces claras y proyectos que me permitan crecer en web, backend y aplicaciones de escritorio.
 
 ## Características
 
@@ -61,3 +65,4 @@ Puedes publicar este portafolio en:
 
 - El listado de repositorios usa la API pública de GitHub.
 - Si agregas nuevos repos públicos, aparecerán automáticamente en la sección dinámica.
+- Contacto directo: +502 57156464, omar.xocoy2007@gmail.com, [LinkedIn](https://www.linkedin.com/in/ludwin-omar-xocoy-miranda-010a3a406/)
