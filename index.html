@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omar Miranda DEV | Portafolio</title>
+    <meta
+      name="description"
+      content="Portafolio de Omar Miranda DEV con proyectos, repositorios y enlaces de GitHub."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="background-orb orb-left"></div>
+    <div class="background-orb orb-right"></div>
+
+    <main class="shell">
+      <section class="hero panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Portafolio de desarrollo</p>
+          <h1>Omar Miranda DEV</h1>
+          <p class="hero-text">
+            Creo proyectos web y de software que mezclan aprendizaje, práctica y soluciones reales. Aquí
+            tienes una vista clara de mis repositorios públicos, con los trabajos más representativos
+            destacados al inicio.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://github.com/OmarMirandaDEV" target="_blank" rel="noreferrer">
+              Ver GitHub
+            </a>
+            <a class="button button-secondary" href="#proyectos">Explorar proyectos</a>
+          </div>
+          <div class="hero-badges">
+            <span>Java</span>
+            <span>JavaScript</span>
+            <span>Spring Boot</span>
+            <span>JavaFX</span>
+          </div>
+        </div>
+
+        <aside class="hero-card">
+          <div class="profile-mark">
+            <img
+              src="https://avatars.githubusercontent.com/u/169814519?v=4"
+              alt="Avatar de Omar Miranda DEV"
+            />
+          </div>
+          <div class="profile-meta">
+            <p>GitHub público</p>
+            <strong>@OmarMirandaDEV</strong>
+          </div>
+          <div class="stats-grid">
+            <article>
+              <span id="repoCount">--</span>
+              <p>Repos públicos</p>
+            </article>
+            <article>
+              <span id="featuredCount">6</span>
+              <p>Destacados</p>
+            </article>
+            <article>
+              <span id="latestYear">2026</span>
+              <p>Actividad visible</p>
+            </article>
+          </div>
+        </aside>
+      </section>
+
+      <section class="panel about-grid">
+        <article>
+          <p class="section-label">Sobre mí</p>
+          <h2>Un portafolio directo, sin ruido</h2>
+          <p>
+            Este sitio está pensado para mostrar qué construyes, no solo decirlo. Toma tus repositorios
+            públicos y los convierte en una presentación limpia, con tus mejores trabajos arriba y el resto
+            accesible en una galería filtrable.
+          </p>
+        </article>
+
+        <article>
+          <p class="section-label">Lo que verás</p>
+          <ul class="feature-list">
+            <li>Hero con identidad clara y enlaces rápidos.</li>
+            <li>Proyectos destacados con tus repos principales.</li>
+            <li>Listado automático desde la API pública de GitHub.</li>
+            <li>Diseño responsive para escritorio y móvil.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="panel" id="proyectos">
+        <div class="section-heading">
+          <div>
+            <p class="section-label">Proyectos</p>
+            <h2>Repositorios destacados</h2>
+          </div>
+          <label class="search-box" for="repoSearch">
+            <span>Buscar</span>
+            <input id="repoSearch" type="search" placeholder="Filtra por nombre o lenguaje" />
+          </label>
+        </div>
+
+        <div id="featuredProjects" class="featured-grid"></div>
+
+        <div class="repo-list-header">
+          <h3>Todos mis repos públicos</h3>
+          <p id="repoStatus">Cargando repositorios desde GitHub...</p>
+        </div>
+
+        <div id="repoGrid" class="repo-grid"></div>
+      </section>
+
+      <section class="panel contact-panel">
+        <div>
+          <p class="section-label">Contacto</p>
+          <h2>Listo para compartir y mejorar</h2>
+          <p>
+            Si quieres, después puedo adaptarlo a una versión más personal con tu foto, descripción
+            profesional, experiencia y enlaces sociales.
+          </p>
+        </div>
+        <a class="button button-primary" href="https://github.com/OmarMirandaDEV?tab=repositories" target="_blank" rel="noreferrer">
+          Ver repositorios
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
